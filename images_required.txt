@@ -1,0 +1,9 @@
+
+Clients images -> 128X128 pixels. 
+Just increase the white background. The image remains the same as on vmarc website.
+
+
+
+logo gif.
+
+
