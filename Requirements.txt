@@ -1,0 +1,19 @@
+________________________
+Images
+________________________
+
+1. Clients images -> 128X128 pixels. 
+Just increase the white background. The image remains the same as on vmarc website.
+
+2. logo gif.
+
+3. "single and multicore aluminium cables" - product page image.
+
+
+________________________
+pdf files
+________________________
+
+1. technical brochures with new logo of each product.
+
+2. Prices pdf(products section)
