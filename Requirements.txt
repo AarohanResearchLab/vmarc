@@ -2,18 +2,28 @@ ________________________
 Images
 ________________________
 
-1. Clients images -> 128X128 pixels. 
+1. Clients images -> 148X148 pixels. 
 Just increase the white background. The image remains the same as on vmarc website.
 
-2. logo gif.
+2. logo gif. -> for home page
+   logo icon -> 250 X 250 pixels
 
-3. "single and multicore aluminium cables"  product  image.
 
-4. "Rubber cables" product image
+3. "single and multicore aluminium cables"  product  image. white background.
+
+4. "Rubber cables" product image not available. Refer client for image. 640X480 pixels.
+
+5. Home page images -> 1400X700 pixels (mimimum 4 images, including the home page)
+
+6. tab icon -> dimensions will be shared
 ________________________
 pdf files
 ________________________
 
-1. technical brochures with new logo of each product.
+1. technical brochures with new logo of each product. Naming same as product.
 
 2. Price List pdf(products section)
+
+
+Refer: 
+http://v-marc.com/
