@@ -88,7 +88,9 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #1c1d26;
+		/* background: #1c1d26; */
+		/* background: linear-gradient(to bottom right, #6617CB, #CB218E);; */
+		background:  linear-gradient(to bottom right, purple, #f9530b);;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3178,6 +3180,7 @@ input, select, textarea {
 
 		.spotlight:before {
 			background-image: url("images/overlay.png");
+			/* background: red; */
 			content: '';
 			display: block;
 			height: 100%;
@@ -3203,7 +3206,9 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			/* background: rgba(23, 24, 32, 0.95); */
+			background:  linear-gradient(to bottom right, purple, #f9530b);;
+			
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3591,10 +3596,13 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			/* background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
+			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");; */
+			/* background-color: rebeccapurple; */
+			background: linear-gradient(to bottom right, rebeccapurple, #FC9842);
+			background-image: url(../../images/home_image_.jpg);
 			content: '';
 			display: block;
 			height: 100%;
@@ -3652,8 +3660,9 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: #272833;
-		padding: 6em 0;
+		background: linear-gradient(to bottom right, #6617CB, #CB218E);;
+		padding: 0;
+		margin: 0;
 		text-align: center;
 	}
 
