@@ -3601,8 +3601,10 @@ input, select, textarea {
 			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");; */
 			/* background-color: rebeccapurple; */
-			background: linear-gradient(to bottom right, rebeccapurple, #FC9842);
-			background-image: url(../../images/home_image_.jpg);
+			background: linear-gradient(to bottom right, #6617CB, #CB218E);
+
+			/* background-image: url(../../images/home_image_2.jpg); */
+		
 			content: '';
 			display: block;
 			height: 100%;
