@@ -1,8 +1,8 @@
 @import url("fontawesome-all.min.css");
 /* @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic"); */
 
-/* @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap'); */
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
@@ -25,6 +25,8 @@ section, summary, time, mark, audio, video {
 	border: 0;
 	font-size: 100%;
 	font: inherit;
+	color: black;
+}
 	vertical-align: baseline;}
 
 article, aside, details, figcaption, figure,
@@ -38,6 +40,10 @@ body {
 p{
 	text-align: justify
 }
+p, h1, h2, h3, h4, h5, h6{
+	color: black;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -89,8 +95,9 @@ input, select, textarea {
 
 	html, body {
 		/* background: #1c1d26; */
-		/* background: linear-gradient(to bottom right, #6617CB, #CB218E);; */
-		background:  linear-gradient(to bottom right, purple, #f9530b);;
+		
+		/* background:  linear-gradient(to bottom right, purple, #f9530b);; */
+		background: white;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -2423,9 +2430,17 @@ input, select, textarea {
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
+		border-style: solid;
+		border-color: black;
+		border-width: 0 3px;
+		border-bottom-width: 2px;
+		border-top-width: 2px;
 	}
 		.icon:hover{
 			opacity: 0.8;
+			border: solid #000;
+			border-width: 0 10px;
+			border-radius: 100%;
 		}
 
 		.icon:before {
@@ -2513,6 +2528,7 @@ input, select, textarea {
 				}
 
 				.icon.major.alt:before {
+					
 					color: #272833 !important;
 					text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 				}
@@ -3207,7 +3223,9 @@ input, select, textarea {
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
 			/* background: rgba(23, 24, 32, 0.95); */
-			background:  linear-gradient(to bottom right, purple, #f9530b);;
+			/* background:  #FF6347; */
+			background:white;
+
 			
 			border-style: solid;
 			opacity: 1;
@@ -3662,7 +3680,8 @@ input, select, textarea {
 /* Footer */
 
 	#footer {
-		background: linear-gradient(to bottom right, #6617CB, #CB218E);;
+		/* background: linear-gradient(to bottom right, #6617CB, #CB218E);; */
+		background: linear-gradient(to bottom right,#F00505, #FD6104 );
 		padding: 0;
 		margin: 0;
 		text-align: center;
