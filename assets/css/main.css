@@ -3112,6 +3112,7 @@ input, select, textarea {
 		height: 100vh;
 		overflow: hidden;
 		position: relative;
+		
 	}
 
 		.spotlight:nth-last-of-type(1) {
@@ -3224,7 +3225,9 @@ input, select, textarea {
 			transition: transform 1s ease, opacity 1s ease;
 			/* background: rgba(23, 24, 32, 0.95); */
 			/* background:  #FF6347; */
-			background:white;
+
+			/* background:white; */
+			background: rgba(255, 255, 255, 0.8);;
 
 			
 			border-style: solid;
