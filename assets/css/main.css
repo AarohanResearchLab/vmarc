@@ -3684,7 +3684,8 @@ input, select, textarea {
 
 	#footer {
 		/* background: linear-gradient(to bottom right, #6617CB, #CB218E);; */
-		background: linear-gradient(to bottom right,#F00505, #FD6104 );
+		/* background: linear-gradient(to bottom right,#FD6104,#FFA07A ); */
+		background: #FFA07A;
 		padding: 0;
 		margin: 0;
 		text-align: center;
