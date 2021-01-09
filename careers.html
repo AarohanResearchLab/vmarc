@@ -44,11 +44,80 @@
 										<section>
                                             <!-- <br/>
                                             <br/> -->
-                                            
-                                            <h3>Current Openings</h3>
+                                            <div class="head">
+												<h2><h3 style="text-align: center;">Current Openings</h3></h2>
+												<div class="content">
+													<h2><h3 style="visibility: hidden;">Current Openings</h3></h2>
+													<ul style="list-style: none; ">
+														<li id="scroll">1. Branch Manager Sales( For Punjab, Haryana & Rajasthan )</li>
+														<li id="scroll">2. Assistant Sales Manager ( For Indore, Jabalpur & Gwalior (M.P))</li>
+														<li id="scroll">More Openings Coming Soon</li>
+														<!-- <li id="scroll">2. Assistant Sales Manager ( For Indore, Jabalpur & Gwalior (M.P))</li> -->
+														
+													</ul>
+												
+												</div>
+											</div>
+											
+											<style>
+												
+												.content{
+												width:300px;
+												margin: 0;
+												padding: 0;
+												height:250px;
+												background-color: white;
+												overflow:hidden;
+												}
+												ul{
+												list-style:none;
+												position:relative;
+												margin: 0;
+												padding: 0;
+												list-style: none;
+												}
+												#scroll{
+												list-style: none;
+												margin-top: 5px;
+												height:90px;
+												padding-top: 15px;
+												background-color:rgba(255, 79, 79, 0.932);
+												
+												text-align:center;
+												
+												color: white;
+												border-bottom:1px solid white;
+												}
+												#scroll:hover{
+													color: black;
+												}
+												
+												
+											</style>
+											<script>
+												$(function(){
+													var tickerLength = $('.content ul li').length;
+													var tickerHeight = $('.content ul li').outerHeight();
+													$('.content ul li:last-child').prependTo('.content ul');
+													$('.content ul').css('marginTop',-tickerHeight);
+													function moveTop(){
+														$('.content ul').animate({
+														top : -tickerHeight
+														},600, function(){
+														$('.content ul li:first-child').appendTo('.content ul');
+														$('.content ul').css('top','');
+														});
+													}
+													setInterval( function(){
+														moveTop();
+													}, 2000);
+												});
+											</script>
+											<!-- <h3>Current Openings</h3>
+											
                                             <h5>1. Branch Manager Sales( For Punjab, Haryana & Rajasthan )</h5>
                                             <h5>2. Assistant Sales Manager ( For Indore, Jabalpur & Gwalior (M.P))</h5>
-											
+											 -->
                                             
 										</section>
 										<hr />
