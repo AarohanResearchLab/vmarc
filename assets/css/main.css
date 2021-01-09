@@ -45,10 +45,12 @@ p, h1, h2, h3, h4, h5, h6{
 	color: black;
 }
 
-#sidebar h2, #sidebar h3, #sidebar h4, #sidebar h5, #sidebar p{
+#sidebar h2,  #sidebar h4, #sidebar h5, #sidebar p{
 	color: black;
 }
-
+#sidebar h3{
+	color: red;
+}
 ol, ul {
 	list-style: none;
 }
@@ -2188,6 +2190,16 @@ input, select, textarea {
 	}
 	header h2{
 		color: red;
+		margin-bottom: 0;
+		/* padding-bottom: 5px;
+		text-decoration: underline #e44c65 3px; */
+		padding-bottom: 10px; 
+            border-bottom-style: solid; 
+			border-bottom-width: 4px; 
+			border-bottom-color: #e44c65;
+			width: fit-content;
+			margin: auto;
+			text-align: center;
 	}
 	header h3 + p {
 		font-size: 1.1em;
@@ -2210,12 +2222,12 @@ input, select, textarea {
 	}
 
 		header.major:after {
-			background: #e44c65;
+			/* background: #e44c65; */
 			content: '';
 			display: inline-block;
 			height: 0.2em;
 			max-width: 20em;
-			width: 75%;
+			width: 100%;
 		}
 
 	footer.major {
@@ -2918,13 +2930,13 @@ input, select, textarea {
 	}
 
 		table tbody tr {
-			border: solid 1px rgba(255, 255, 255, 0.3);
+			border: solid 1px rgba(255, 0, 0, 0.938);
 			border-left: 0;
 			border-right: 0;
 		}
 
 			table tbody tr:nth-child(2n + 1) {
-				background-color: rgba(255, 255, 255, 0.075);
+				background-color: rgb(247, 178, 160);
 			}
 
 		table td {
@@ -2990,8 +3002,8 @@ input, select, textarea {
 		background-color: transparent;
 		border-radius: 4px;
 		border: 0;
-		box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.3);
-		color: #ffffff !important;
+		box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.3);
+		color: black !important;
 		cursor: pointer;
 		display: inline-block;
 		font-weight: 300;
@@ -3053,7 +3065,7 @@ input, select, textarea {
 		input[type="reset"].primary,
 		input[type="button"].primary,
 		.button.primary {
-			background-color: #e44c65;
+			background-color: #ff712f;
 			box-shadow: none;
 			color: #ffffff !important;
 		}
@@ -3062,7 +3074,7 @@ input, select, textarea {
 			input[type="reset"].primary:hover,
 			input[type="button"].primary:hover,
 			.button.primary:hover {
-				background-color: #e76278;
+				background-color: #fa4f00;
 			}
 
 			input[type="submit"].primary:active,
