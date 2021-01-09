@@ -5,6 +5,13 @@
 */
 
 (function($) {
+	document.title="v-marc";
+
+	var link = document.createElement('link');
+	link.id = 'dynamic-favicon';
+	link.rel = 'shortcut icon';
+	link.href = "../../images/favicon.ico";
+	document.head.appendChild(link);
 
 	var	$window = $(window),
 		$body = $('body');
