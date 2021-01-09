@@ -90,6 +90,12 @@ input, select, textarea {
 	appearance: none;
 }
 
+div #footer{
+	margin-bottom: 0; 
+	padding-bottom: 0;
+	
+}
+
 /* Basic */
 
 	html {
@@ -2559,6 +2565,114 @@ input, select, textarea {
 
 
 
+/* Icon */
+
+.icon_3 {
+	text-decoration: none;
+	border-bottom: none;
+	position: relative;
+	/* border-style: solid;
+	border-color: black;
+	border-width: 0 3px;
+	border-bottom-width: 2px;
+	border-top-width: 2px; */
+}
+	.icon_3:hover{
+		opacity: 0.8;
+		/* border: solid #000;
+		border-width: 0 10px;
+		border-radius: 100%; */
+	}
+
+	.icon_3:before {
+		-moz-osx-font-smoothing: grayscale;
+		-webkit-font-smoothing: antialiased;
+		display: inline-block;
+		font-style: normal;
+		font-variant: normal;
+		text-rendering: auto;
+		line-height: 1;
+		text-transform: none !important;
+		font-family: 'Font Awesome 5 Free';
+		font-weight: 400;
+	}
+
+	.icon_3 > .label {
+		display: none;
+	}
+
+	.icon_3:before {
+		line-height: inherit;
+	}
+
+	.icon_3.solid:before {
+		font-weight: 900 !important;
+	}
+
+	.icon_3.brands:before {
+		font-family: 'Font Awesome 5 Brands' !important;
+	}
+
+	.icon_3.alt {
+		text-decoration: none;
+	}
+
+		.icon_3.alt:before {
+			-moz-osx-font-smoothing: grayscale;
+			-webkit-font-smoothing: antialiased;
+			display: inline-block;
+			font-style: normal;
+			font-variant: normal;
+			text-rendering: auto;
+			line-height: 1;
+			text-transform: none !important;
+			font-family: 'Font Awesome 5 Free';
+			font-weight: 400;
+		}
+
+		.icon_3.alt:before {
+			color: #1c1d26 !important;
+			text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+		}
+
+	.icon_3.major {
+		background: #272833;
+		border-radius: 100%;
+		cursor: default;
+		display: inline-block;
+		height: 12em;
+		line-height: 5.65em;
+		margin: 0 0 2em 0;
+		text-align: center;
+		width: 12em;
+	}
+
+		.icon_3.major:before {
+			font-size: 2.25em;
+		}
+
+		.icon_3.major.alt {
+			text-decoration: none;
+		}
+
+			.icon_3.major.alt:before {
+				-moz-osx-font-smoothing: grayscale;
+				-webkit-font-smoothing: antialiased;
+				display: inline-block;
+				font-style: normal;
+				font-variant: normal;
+				text-rendering: auto;
+				line-height: 1;
+				text-transform: none !important;
+				font-family: 'Font Awesome 5 Free';
+				font-weight: 400;
+			}
+
+			.icon_3.major.alt:before {
+				
+				color: #272833 !important;
+				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
+			}
 
 
 
@@ -3713,11 +3827,12 @@ input, select, textarea {
 
 	#footer {
 		/* background: linear-gradient(to bottom right, #6617CB, #CB218E);; */
-		background: linear-gradient(to bottom right,rgba(255, 78, 0, 0.7), rgba(253, 97, 4, 0.7) );
-		
+		/* background: linear-gradient(to bottom right,rgba(255, 78, 0, 0.7), rgba(253, 97, 4, 0.7) ); */
+		background: white;
 		/* background: #FFA07A; */
 		padding: 0;
 		margin: 0;
+
 		text-align: center;
 	}
 
@@ -3747,7 +3862,7 @@ input, select, textarea {
 			color: rgba(255, 255, 255, 0.5);
 			font-size: 0.8em;
 			line-height: 1em;
-			margin: 2em 0 0 0;
+			margin: 0 0 0 0;
 			padding: 0;
 			text-align: center;
 		}
