@@ -38,6 +38,9 @@ body {
 	line-height: 1;
 }
 
+a:hover{
+	cursor: pointer;
+}
 p{
 	text-align: justify
 }
@@ -2460,17 +2463,19 @@ div #footer{
 		text-decoration: none;
 		border-bottom: none;
 		position: relative;
-		border-style: solid;
+		/* border-style: solid;
 		border-color: black;
 		border-width: 0 3px;
 		border-bottom-width: 2px;
-		border-top-width: 2px;
+		border-top-width: 2px; */
 	}
 		.icon:hover{
 			opacity: 0.8;
-			border: solid #000;
-			border-width: 0 10px;
-			border-radius: 100%;
+			/* border: solid #000; */
+			/* border-width: 0 10px; */
+			/* border-radius: 100%; */
+			transform: scale(1.2);
+			
 		}
 
 		.icon:before {
@@ -2520,12 +2525,12 @@ div #footer{
 			}
 
 			.icon.alt:before {
-				color: #1c1d26 !important;
+				/* color: #1c1d26 !important; */
 				text-shadow: 1px 0 0 #ffffff, -1px 0 0 #ffffff, 0 1px 0 #ffffff, 0 -1px 0 #ffffff;
 			}
 
 		.icon.major {
-			background: #272833;
+			/* background: #272833; */
 			border-radius: 100%;
 			cursor: default;
 			display: inline-block;
@@ -3436,7 +3441,7 @@ div #footer{
 		}
 
 		.spotlight.style3 .content {
-			border-color: #39c088;
+			border-color: #c03939;
 		}
 
 		.spotlight.inactive .content {
@@ -3918,7 +3923,7 @@ div #footer{
 			}
 
 			.spotlight.left .content, .spotlight.right .content {
-				padding: 4.5em 2.5em;
+				padding: 2.5em 2.5em;
 				width: 25em;
 			}
 
