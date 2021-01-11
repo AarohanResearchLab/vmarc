@@ -3057,7 +3057,9 @@ div #footer{
 		-webkit-overflow-scrolling: touch;
 		overflow-x: auto;
 	}
-
+	.tr-no-border{
+		border: none;
+	}
 	table {
 		margin: 0 0 2em 0;
 		width: 100%;
