@@ -6,8 +6,9 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Noto+Sans+HK&display=swap'); */
 
-@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap'); */
 /* @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
@@ -148,7 +149,8 @@ div #footer{
 	body, input, select, textarea {
 		color: rgba(255, 255, 255, 0.75);
 		/* font-family: "Roboto", Helvetica, sans-serif; */
-		font-family: 'Fira Sans', sans-serif;
+		/* font-family: 'Fira Sans', sans-serif; */
+		font-family: 'Montserrat', sans-serif;
 		/* font-family: 'Noto Sans HK', sans-serif; */
 		/* font-family: 'Oswald', sans-serif; */
 		font-size: 15pt;
