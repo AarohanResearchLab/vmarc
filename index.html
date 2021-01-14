@@ -18,6 +18,9 @@
 			$(function(){
 				$("#header").load("header.html"); 
 				$("#footer").load("footer.html"); 
+				$("#slider").load("slider.html");
+				
+				$("#tvcommercials").load("tvcommercials.html");
 			});
 		</script>
 		<style>
@@ -52,7 +55,7 @@
 			//paste this code under the head tag or in a separate js file.
 				// Wait for window load
 				$(window).on('load', function() {
-							console.log("loading...");
+							// console.log("loading...");
 							// Animate loader off screen
 							$(".se-pre-con").fadeOut("slow");;
 						});
@@ -60,7 +63,7 @@
 		</script>
 
 
-
+		
 		
 
 		
@@ -109,44 +112,13 @@
 				</header>
 				<br/>
 				<br/>
-				<p style="margin: 0 10% 10% 10%; padding-bottom: 50px; ">V-Marc is one of the global leader in providing reliable and consistent quality of products, we enable our clients to achieve more and outperform their competitors and stay ahead of the innovation curve. The growth of the latter is the first stepping stone towards the growth of the company and hence customer’s satisfaction is its prime objective. V-Marc has earned the trust and reputation in India by winning the customer’s confidence.  <a href="about-v-marc.html">Learn More</a></p>
+				<p style="margin: 0 10% 10% 10%; padding-bottom: 50px; ">V-Marc is one of the global leader in providing reliable and consistent quality of products, we enable our clients to achieve more and outperform their competitors and stay ahead of the innovation curve. The growth of the latter is the first stepping stone towards the growth of the company and hence customer’s satisfaction is its prime objective. V-Marc has earned the trust and reputation in India by winning the customer’s confidence.  <a href="about-v-marc_2.html">Learn More</a></p>
 				
 			</div>
 			
 			
 
 
-			<link rel="stylesheet" type="text/css" href="css/style.css" />
-			<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
-
-
-			<section id="dg-container" class="dg-container">
-				<div class="dg-wrapper">
-					<a href="#"><img src="images_2/1.jpg" alt="image01"><div>http://www.colazionedamichy.it/</div></a>
-					<a href="#"><img src="images_2/2.jpg" alt="image02"><div>http://www.percivalclo.com/</div></a>
-					<a href="#"><img src="images_2/3.jpg" alt="image03"><div>http://www.wanda.net/fr</div></a>
-					<a href="#"><img src="images_2/4.jpg" alt="image04"><div>http://lifeingreenville.com/</div></a>
-					<a href="#"><img src="images_2/5.jpg" alt="image05"><div>http://circlemeetups.com/</div></a>
-					<a href="#"><img src="images_2/6.jpg" alt="image06"><div>http://www.castirondesign.com/</div></a>
-					<a href="#"><img src="images_2/7.jpg" alt="image07"><div>http://www.foundrycollective.com/</div></a>
-					<a href="#"><img src="images_2/8.jpg" alt="image08"><div>http://www.mathiassterner.com/</div></a>
-					<a href="#"><img src="images_2/9.jpg" alt="image09"><div>http://learnlakenona.com/</div></a>
-					<a href="#"><img src="images_2/10.jpg" alt="image10"><div>http://www.neighborhood-studio.com/</div></a>
-					<a href="#"><img src="images_2/11.jpg" alt="image11"><div>http://www.beckindesign.com/</div></a>
-					<a href="#"><img src="images_2/12.jpg" alt="image12"><div>http://kicksend.com/</div></a>
-				</div>
-				
-			</section>
-
-			<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-		<script type="text/javascript" src="js/jquery.gallery.js"></script>
-		<script type="text/javascript">
-			$(function() {
-				$('#dg-container').gallery({
-					autoplay	:	true
-				});
-			});
-		</script>	
 
 
 
@@ -256,6 +228,12 @@
 					</div>
 				</section> -->
 
+				<!-- slider -->
+				<div id="slider"></div>
+				</div>
+				<!-- /wrapper -->
+	
+
 			<!-- Footer -->
 				<!-- <footer id="footer">
 					<ul class="icons">
@@ -330,11 +308,14 @@
 				</div>
 				</div>
 				</div>
-				<!-- Header -->
-				<div id="footer" ></div>
+				<!-- commercials -->
+				<div id="tvcommercials"></div>
+				<!-- footer -->
+				<div style="padding-bottom: 0; padding-top: 0;" id="footer" ></div>
 
 		</div>
 
+		
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrolly.min.js"></script>
