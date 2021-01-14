@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<script type="text/javascript" src="js/modernizr.custom.53451.js"></script>
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+	<script type="text/javascript" src="js/jquery.gallery.js"></script>
+</head>
+
+<body>
+
+<div id="tvcommercials" style="text-align: center; padding-top: 50px;">
+	
+	<tag style="color: black;  padding-top: 50px; font-size: 2em; padding-bottom: 10px; 
+	border-bottom-style: solid; 
+	border-bottom-width: 4px; 
+	border-bottom-color: red;
+	font-weight: 800;
+	width: fit-content;"> <mark style="background-color:grey"> TV COMMERCIALS </mark></tag>
+	
+	<section id="dg-container" class="dg-container">
+		
+		<div class="dg-wrapper">
+			<div href="#">
+				
+				<iframe  src="https://www.youtube.com/embed/8-xvJDlAHuI"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe></div>
+			<div href="#"><iframe src="https://www.youtube.com/embed/m6Q-N-uJhag"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe></div>
+			<div href="#"><iframe  src="https://www.youtube.com/embed/k2PJ8uvCO9Q"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen></iframe></div>
+		</div>
+		<!--nav>	
+					<span class="dg-prev">&lt;</span>
+					<span class="dg-next">&gt;</span>
+				</nav-->
+	</section>
+</div>
+	
+	<script type="text/javascript">
+		$( document ).ready(function () {
+			$('#dg-container').gallery({
+				autoplay: true
+			});
+
+			
+		});
+
+		
+	</script>
+</body>
+
+</html>

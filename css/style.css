@@ -1,0 +1,76 @@
+.dg-container{
+	width: 100%;
+	height: 550px;
+	padding-top: 50px;
+	position: relative;
+	
+}
+#tvcommercials{
+	
+	background: url('../images/V\ bg4.png');
+}
+.dg-wrapper{
+	width: 600px;
+	height: 400px;
+	margin: 25px auto;
+	position: relative;
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	-o-transform-style: preserve-3d;
+	-ms-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+	-webkit-perspective: 1000px;
+	-moz-perspective: 1000px;
+	-o-perspective: 1000px;
+	-ms-perspective: 1000px;
+	perspective: 1000px;
+}
+.dg-wrapper div{
+	width: 600px;
+	height: 400px;
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background: transparent no-repeat top left;
+	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
+}
+
+
+.dg-wrapper:hover div.dg-transition{
+	/* background: red; */
+
+	-webkit-transition: none;
+	-moz-transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+	transition: none;
+	width: 100%;
+}
+.dg-wrapper div.dg-transition{
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	-o-transition: all 0.5s ease-in-out;
+	-ms-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+
+.dg-wrapper div iframe{
+	display: block;
+	padding: 0px;
+}
+
+
+iframe {
+	width:600px;
+	height:400px;
+}
+
+
+.dg-wrapper div iframe{
+	display: block;
+	padding: 0px;
+}
+
+
