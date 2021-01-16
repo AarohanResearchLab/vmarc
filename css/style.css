@@ -37,6 +37,10 @@
 	box-shadow: 0px 10px 20px rgba(0,0,0,0.3);
 }
 
+.dg-wrapper div.dg-center {
+	display: block;
+	z-index: 1001;
+}
 
 .dg-wrapper:hover div.dg-transition{
 	/* background: red; */
@@ -97,4 +101,6 @@ iframe {
 	background-position: top right;
 	margin-left: 10px;
 }
+
+
 
