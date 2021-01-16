@@ -60,7 +60,6 @@
 			this.$items.css({
 				'opacity'	: 0,
 				'visibility': 'hidden'
-				
 			});
 			
 			this._validate();
