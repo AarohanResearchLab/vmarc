@@ -749,6 +749,15 @@ h1, h2, h3, h4, h5, h6 {
 
 		@media screen and (max-width: 1280px) {
 
+		
+			.logo-class{
+				/* style="height: 60px; width: 265px;" */
+				height: 60px;;
+			}
+			.abc-class{
+				/* style="visibility:hidden;" */
+				visibility: hidden;
+			}
 			.container {
 				width: 90%;
 				max-width: 100%;
@@ -758,6 +767,14 @@ h1, h2, h3, h4, h5, h6 {
 
 		@media screen and (max-width: 980px) {
 
+			.logo-class{
+				/* style="height: 60px; width: 265px;" */
+				height: 60px;;
+			}
+			.abc-class{
+				/* style="visibility:hidden;" */
+				visibility: hidden;
+			}
 			.container {
 				width: 100% !important;
 			}
@@ -1011,6 +1028,14 @@ h1, h2, h3, h4, h5, h6 {
 
 		@media screen and (max-width: 1680px) {
 
+			.logo-class{
+				/* style="height: 60px; width: 265px;" */
+				height: 60px;;
+			}
+			.abc-class{
+				/* style="visibility:hidden;" */
+				visibility: hidden;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1255,7 +1280,14 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 		@media screen and (max-width: 1280px) {
-
+			.logo-class{
+				/* style="height: 60px; width: 265px;" */
+				height: 60px;;
+			}
+			.abc-class{
+				/* style="visibility:hidden;" */
+				visibility: hidden;
+			}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1500,6 +1532,16 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 		@media screen and (max-width: 980px) {
+
+			.logo-class{
+				/* style="height: 60px; width: 265px;" */
+				height: 60px;;
+			}
+
+			.abc-class{
+				/* style="visibility:hidden;" */
+				visibility: hidden;
+			}
 
 			.row {
 				display: flex;
@@ -1746,6 +1788,16 @@ h1, h2, h3, h4, h5, h6 {
 
 		@media screen and (max-width: 736px) {
 
+			.logo-class{
+				/* style="height: 60px; width: 265px;" */
+				height: 40px;;
+			}
+
+			.abc-class{
+				/* style="visibility:hidden;" */
+				visibility: hidden;
+			}
+
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1990,6 +2042,16 @@ h1, h2, h3, h4, h5, h6 {
 		}
 
 		@media screen and (max-width: 480px) {
+
+			.logo-class{
+				/* style="height: 60px; width: 265px;" */
+				height: 40px;;
+			}
+
+			.abc-class{
+				/* style="visibility:hidden;" */
+				visibility: hidden;
+			}
 
 			.row {
 				display: flex;
@@ -3044,6 +3106,16 @@ h1, h2, h3, h4, h5, h6 {
 			}
 
 		@media screen and (max-width: 480px) {
+			
+			.logo-class{
+				/* style="height: 60px; width: 265px;" */
+				height: 40px;;
+			}
+
+			.abc-class{
+				/* style="visibility:hidden;" */
+				visibility: hidden;
+			}
 
 			ul.actions:not(.fixed) {
 				-moz-flex-direction: column;
@@ -3956,6 +4028,16 @@ h1, h2, h3, h4, h5, h6 {
 
 	@media screen and (max-width: 1680px) {
 
+		.logo-class{
+			/* style="height: 60px; width: 265px;" */
+			height: 60px;;
+		}
+
+		.abc-class{
+			/* style="visibility:hidden;" */
+			visibility: hidden;
+		}
+
 		/* Basic */
 
 			body, input, select, textarea {
@@ -3967,6 +4049,16 @@ h1, h2, h3, h4, h5, h6 {
 /* Large */
 
 	@media screen and (max-width: 1280px) {
+
+		.logo-class{
+			/* style="height: 60px; width: 265px;" */
+			height: 60px;;
+		}
+
+		.abc-class{
+			/* style="visibility:hidden;" */
+			visibility: hidden;
+		}
 
 		/* Basic */
 
@@ -4018,6 +4110,16 @@ h1, h2, h3, h4, h5, h6 {
 /* Medium */
 
 	@media screen and (max-width: 980px) {
+
+		.logo-class{
+			/* style="height: 60px; width: 265px;" */
+			height: 60px;;
+		}
+
+		.abc-class{
+			/* style="visibility:hidden;" */
+			visibility: hidden;
+		}
 
 		/* Basic */
 
@@ -4117,6 +4219,16 @@ h1, h2, h3, h4, h5, h6 {
 
 	@media screen and (max-width: 736px) {
 
+		.logo-class{
+			/* style="height: 60px; width: 265px;" */
+			height: 40px;;
+		}
+
+		.abc-class{
+			/* style="visibility:hidden;" */
+			visibility: hidden;
+		}
+
 		/* Basic */
 
 			html, body {
@@ -4194,6 +4306,10 @@ h1, h2, h3, h4, h5, h6 {
 
 		/* Header */
 
+			.abc-class{
+				/* style="visibility:hidden;" */
+				visibility: hidden;
+			}
 			#header {
 				display: none;
 			}
@@ -4417,6 +4533,16 @@ h1, h2, h3, h4, h5, h6 {
 
 	@media screen and (max-width: 480px) {
 
+		.logo-class{
+			/* style="height: 60px; width: 265px;" */
+			height: 40px;;
+		}
+
+		.abc-class{
+			/* style="visibility:hidden;" */
+			visibility: hidden;
+		}
+		
 		/* Basic */
 
 			html, body {
